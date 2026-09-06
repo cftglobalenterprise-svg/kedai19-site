@@ -53,9 +53,7 @@
   }
   .brand{ display:flex; align-items:center; gap:12px; }
   .brand-mark{
-    width:38px; height:38px; border-radius:50%;
-    border:1.5px solid var(--paper); display:flex; align-items:center; justify-content:center;
-    font-family:'IBM Plex Mono', monospace; font-size:11px; font-weight:600;
+    width:44px; height:37px; object-fit:contain;
   }
   .brand h1{ font-size:18px; font-weight:700; letter-spacing:0.02em; }
   .brand p{ font-size:11px; color:var(--paper-dim); font-family:'IBM Plex Mono', monospace; }
@@ -78,11 +76,8 @@
     overflow:hidden;
   }
   .hero-emblem{
-    width:118px; height:118px; border-radius:50%; border:1.5px solid var(--line);
-    display:flex; align-items:center; justify-content:center;
-    font-family:'Space Grotesk',sans-serif; font-size:26px; font-weight:700;
-    color:var(--paper-dim); margin-bottom:34px; position:relative;
-    background:radial-gradient(circle at 50% 40%, rgba(193,67,42,0.12), transparent 70%);
+    width:130px; height:auto; object-fit:contain;
+    margin-bottom:34px; position:relative;
   }
   .hero-pill{
     font-family:'Space Grotesk',sans-serif; font-size:12px; letter-spacing:0.16em;
@@ -260,7 +255,7 @@
 
 <header>
   <div class="brand">
-    <div class="brand-mark">US</div>
+    <img src="assets/logo.png" class="brand-mark" alt="Unbound Studio">
     <div>
       <h1>Unbound Studio</h1>
       <p>PRINT &amp; FABRICATION LAB</p>
@@ -275,7 +270,7 @@
 </header>
 
 <section class="hero">
-  <div class="hero-emblem">US</div>
+  <img src="assets/logo.png" class="hero-emblem" alt="Unbound Studio">
   <div class="hero-pill">PRINT · FABRICATE · DESIGN</div>
   <h2>Your idea,<br>made <em>physical</em>.</h2>
   <p>Traditional printing, 3D fabrication, custom stickers, and menu design — one shop, one order flow, no back-and-forth.</p>
@@ -389,7 +384,7 @@
 <footer>
   <div class="foot-brand">
     <div class="brand">
-      <div class="brand-mark">US</div>
+      <img src="assets/logo.png" class="brand-mark" alt="Unbound Studio">
       <h1 style="font-size:16px">Unbound Studio</h1>
     </div>
     <p>Dimensional... no — practical fabrication studio. Print, photostat, 3D printing, stickers, and menu design, all from one counter in Brinchang, Cameron Highlands.</p>
