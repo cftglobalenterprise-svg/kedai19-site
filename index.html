@@ -46,7 +46,8 @@
   header{
     position:sticky; top:0; z-index:100;
     display:flex; align-items:center; justify-content:space-between;
-    padding:22px clamp(20px,5vw,64px);
+    padding:22px clamp(20px,5vw,56px);
+    max-width:1360px; margin:0 auto;
     background:rgba(8,8,11,0.86); backdrop-filter:blur(10px);
     border-bottom:1px solid var(--line);
   }
@@ -71,7 +72,8 @@
   /* ---------- Hero ---------- */
   .hero{
     position:relative; min-height:78vh; display:flex; flex-direction:column;
-    justify-content:center; padding:60px clamp(20px,5vw,64px);
+    justify-content:center; padding:60px clamp(20px,5vw,56px);
+    max-width:1360px; margin:0 auto;
     overflow:hidden;
   }
   .hero::before{
@@ -113,7 +115,7 @@
   .btn-ghost:hover{ border-color:var(--paper); }
 
   /* ---------- Services ---------- */
-  .section{ padding:100px clamp(20px,5vw,64px); }
+  .section{ padding:100px clamp(20px,5vw,56px); max-width:1360px; margin:0 auto; }
   .section-head{ display:flex; justify-content:space-between; align-items:flex-end; margin-bottom:48px; flex-wrap:wrap; gap:16px; }
   .section-head h3{ font-size:clamp(26px,3.4vw,38px); font-weight:700; }
   .section-head p{ color:var(--paper-dim); font-size:14px; max-width:360px; }
@@ -220,7 +222,8 @@
   .faq-a p{ padding:0 4px 22px; color:var(--paper-dim); font-size:14px; line-height:1.6; max-width:640px; }
 
   footer{
-    padding:60px clamp(20px,5vw,64px) 40px; border-top:1px solid var(--line);
+    padding:60px clamp(20px,5vw,56px) 40px; border-top:1px solid var(--line);
+    max-width:1360px; margin:0 auto;
     display:grid; grid-template-columns:2fr 1fr 1fr 1fr; gap:40px;
   }
   @media(max-width:760px){ footer{ grid-template-columns:1fr 1fr; } }
